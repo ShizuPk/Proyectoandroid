@@ -15,20 +15,21 @@
         android:src="@drawable/logo" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="420dp"
         android:layout_height="wrap_content"
         android:background="#EFE6E6"
         android:backgroundTint="#9C27B0"
         android:fontFamily="sans-serif-condensed-light"
         android:padding="10dp"
-        android:text="buscas un producto?"
+        android:text="crear un producto?"
         android:textColor="@color/black"
         android:textSize="28dp" />
+
     <EditText
         android:id="@+id/textproducto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="ingresa el producto que buscas aqui"
+        android:hint="ingresa el producto que crearas aqui"
         android:padding="16dp"
         android:inputType="text"
         android:textSize="18dp"
@@ -45,20 +46,32 @@
         android:fontFamily="serif"
         android:padding="16sp"
         android:shadowColor="@color/black"
-        android:text="buscar 🔎"
+        android:text="guardar🔎"
         android:textColor="@color/white"
         android:textSize="24dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="326dp"
+        android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:backgroundTint="#D51C1C"
         android:fontFamily="sans-serif"
         android:padding="16sp"
-        android:text="eliminar busqueda 🪄"
+        android:text="eliminar🪄"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/botonLista"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:backgroundTint="#D56C1C"
+        android:fontFamily="sans-serif"
+        android:padding="16sp"
+        android:text="Ir a La Lista "
         android:textSize="24dp" />
 
     <TextView
